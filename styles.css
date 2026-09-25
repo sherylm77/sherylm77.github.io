@@ -220,6 +220,21 @@ a:hover {
   font-size: 0.92rem;
 }
 
+.plain-list-no-lines {
+  border-top: none;
+  display: grid;
+  gap: 0.7rem;
+}
+
+.plain-list-no-lines li {
+  border-bottom: none;
+}
+
+.plain-list-no-lines > li {
+  border-left: 3px solid var(--accent);
+  padding: 0.15rem 0 0.15rem 0.95rem;
+}
+
 .site-footer {
   border-top: 1px solid var(--line);
   padding: 1.5rem;
